@@ -1,0 +1,1514 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+:root
+{
+    --darkblue:rgb(65,93,161);
+    --lightblue:rgb(235,242,255);
+    --fontbluecol:rgb(65,93,161);
+}
+
+/* classes */
+.d-flex
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.width-100
+{
+    width: 100%;
+}
+.width-50
+{
+    width: 50%;
+}
+.container
+{
+    width: 1200px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.container1
+{
+    width: 1200px;
+    margin: auto;
+    padding: 0px 10px;
+}
+.bg-dark
+{
+    background-color: var(--darkblue);
+}
+.bg-light
+{
+    background-color: var(--lightblue);
+}
+.but
+{
+    background-color: var(--darkblue);
+    width: 145px;
+    height: 8vh;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.but:hover
+{
+transition: all 0.2s ease;
+transform: translateY(-2px);
+}
+.but:active
+{
+    background-color: rgb(25, 48, 107);
+}
+ul li {
+    list-style-type: none;
+    display: flex;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+/* class end */
+
+/* @media */
+/* width 1200 */
+@media (max-width:1220px)
+{
+    
+    .aboutuscontainer
+    {
+        margin-top: -70px;
+        overflow-y: hidden;
+    }
+    .container
+    {
+        width: 1000px; 
+    }    
+   
+}
+@media (max-width:1090px)
+{
+  /* product */
+.product-50with
+{
+    width: 100%;
+    margin-top: 20px;
+}
+    .container
+    {
+        width: 95%; 
+    } 
+    .home-topheader-left 
+    {
+        display: none;
+    }
+    .home-topheader-right
+    {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .whyusright
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .whyusleft 
+    {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+    }
+    .whyusleft img
+    {
+       width: 400px
+    }
+  
+  
+
+.cards-8
+{
+gap: 20px;
+justify-content: left;
+}
+.cards-8-a
+{
+display: flex;
+flex-wrap: wrap;
+justify-content: left;
+}
+.aboutuspara p
+{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+.aboutus
+{
+   overflow-x: hidden;
+}
+
+
+.productsleft
+{
+   
+   display: none;
+}
+
+
+
+/* loginresponsive */
+.registercontainer
+{
+    width: 60%;
+}
+
+}
+@media (max-width:900px)
+{
+    .flexmedia
+{
+   display: block;
+   width: 1000px;
+   padding-top: 70px;
+}
+.products ul li
+{
+ 
+    margin-bottom: 25px;
+}
+    .flexmedia
+{
+   display: block;
+}
+  .responsivenavicon i 
+  {
+    opacity: 1;
+  }
+  .aboutuspara p
+  {
+    width: 250px;
+    margin: auto;
+
+  }
+  .registercontainer
+{
+    width: 70%;
+}
+.contactcard
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardcard1
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartcards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media (max-width:700px)
+{
+
+  .registercontainer
+{
+    width: 100%;
+}
+.flexmedia
+{
+   display: block;
+   width: 1000px;
+   padding-top: 70px;
+}
+.products ul li
+{
+ 
+    margin-bottom: 25px;
+}
+}
+
+
+/* nam mob */ 
+.responsivenavicon i
+{
+    font-size: 34px;
+    cursor: pointer;
+    opacity: 0;
+    
+}
+.res-list ul li a:hover
+{
+    color: black;
+}
+
+.coloronactive 
+{
+    border-bottom: 1px dotted;
+}
+.active1 i
+{
+    background-color: var(--lightblue);
+    box-shadow: 0px 0px 6px rgba(226, 225, 225, 0.479);
+    color: black;
+    padding: 2px 6px;
+}
+/* top header */
+.home-topheadera
+{
+    color: white;
+    justify-content: space-between;
+    padding: 6px 0px;
+    flex-wrap: wrap;
+    width: 98%;
+    margin: auto;
+}
+.home-topheader-left,.home-topheader-right{
+    gap: 5px;
+}
+.home-topheader-left3
+{
+    border-left: 1px dotted;
+    padding-left: 12px;
+}
+/* nav */
+
+.cart i{
+    font-size:22px;
+}
+
+.carticon i
+{
+    padding-top: 6px;
+    margin-left: -40px;
+}
+
+.banner
+{
+    width: 100%;
+    background-image: url(https://assets.eposnow.com/public/blog-images/pharmacist-checking-medicines-drugstore__Resampled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 94vh;
+    position: relative;
+    z-index: -100;
+
+}
+.topheading
+{
+    text-align: center;
+   font-weight: 500;
+   font-size: 16px;
+   color:RGB(57, 57, 74);
+}
+.bottomheading
+{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+   margin-top: 20px;
+}
+.headingleft h3
+{
+    text-align: left;
+}
+.banner-container
+{
+   padding-top: 120px;
+}
+.buttons
+{
+    margin-top: 50px;
+    gap: 50px;
+}
+/* search */
+
+.searchcontainer
+{
+    width: 60%;
+    margin: auto;
+    height: 10vh;
+    margin-top: 70px;
+    border: 1px solid grey;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.searchicon
+{
+    width: 10%;
+}
+.serchleft
+{
+    width: 78%;
+
+}
+.serchleft input
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 59px;
+    font-size: 18px;
+    color: grey;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.searchicon i
+{
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 23px;
+}
+
+
+
+/* featured */
+.cards-8
+{
+    margin-top: 80px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cards-8-a
+{
+    background-color: var(--lightblue);
+    width: 165px;
+    height: 20vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.cards-8-a:hover
+{
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(204, 203, 203, 0.582);
+}
+.featured
+{
+    margin-top: 70px;
+}
+.working
+{
+    margin-top: 100px;
+}
+.cards 
+{
+    margin-top: 50px;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.card
+{
+    background-color: var(--lightblue);
+    width: 220px;
+    height: 23vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    box-shadow: 0px 0px 12px rgba(218, 218, 218, 0.562);
+}
+.card:hover
+{
+background-color: white;
+}
+.card i{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--fontbluecol);
+    margin-top: 20px;
+}
+/* why us */
+.whyus
+{
+
+}
+.whyusright
+{
+    margin-top: 50px;
+}
+.whyusleft
+{
+    margin-top: 100px;
+}
+.whyusleft img
+{
+    border-radius: 20px;
+}
+
+.whyusimg
+{
+    background-color: var(--lightblue);
+    border: 2px solid white;
+    box-shadow: 0px 0px 12px rgb(184, 182, 182);
+    width: 90px;
+    height: 14vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+.home-whyus-para p
+{
+    padding-top: 10px;
+}
+
+.home-whyus-div
+{
+    margin-top: 50px;
+    gap: 20px;
+}
+.whyusright
+{
+    padding-left: 2%;
+}
+.why-us-top-mrgion
+{
+    margin-top: 90px;
+}
+.whyuslef img
+{
+ padding-top: 500px;
+}
+.aboutus
+{
+    margin-top: 140px;
+    background-color: rgb(45, 70, 136);
+    height: 60vh;
+}
+
+.whiteaboutus
+{
+    color: white;
+    padding-top: 90px;
+}
+.aboutuspara
+{
+    width: 60%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.footer1
+{
+    background-color:rgb(0, 0, 0);
+    margin-top: 100px;
+    height: 60vh;
+}
+.footerlogo,.footerlinks,.footeraboutus
+{
+    width: 30%;
+}
+.footerlogo ul li a
+{
+color: white;
+font-size: 30px;
+display: flex;
+}
+.footerlogo ul li a:hover
+{
+color: var(--darkblue);
+}
+.footerlogo img
+{
+    width: 90px;
+}
+.footercontainer
+{
+    padding-top: 40px;
+}
+.footerlinkstyle
+{
+    gap: 20px;
+    margin-top: 50px;
+}
+.footerlinks h4{
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+.footerlinks ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+.footerlinks ul li a
+{
+    color: white;
+}
+.footerlinks ul li a:hover
+{
+    color:var(--darkblue)
+}
+/* contact */
+
+
+
+.showfile p 
+{
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 90px;
+}
+.heading h1
+{
+padding-top: 60px;
+font-size: 2em;
+font-weight: 700;
+margin-bottom: 50px;
+}
+.row-field
+{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+.row-fieldleft
+{
+    width: 100%;
+
+}
+.row-fieldleft label
+{
+    color: grey;
+    font-size: 1em;
+}
+.row-fieldleft input
+{
+
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 1.1em;
+    color: grey;
+    margin-top: 50px;
+}
+.text-area
+{
+    margin-top: 50px;
+}
+.text-area textarea
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    font-size: 1.2em;
+    color: grey;
+    margin-top: 50px;
+    height: 10vh;
+}
+
+.selection
+{
+    margin-top: 40px;
+}
+.selection select
+{
+    margin-top: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+.selection select{
+    appearance: none;
+}
+.dropdown
+{
+    position: absolute;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 79%;
+}
+.contactform
+{
+    box-shadow: 0px 0px 9px rgba(177, 176, 176, 0.342);
+    margin-top: 70px;
+}
+#button
+{
+margin-top: 50px;
+}
+.containerforminside
+{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+/* media query */
+@media (max-width:800px) 
+{
+  .row-field
+  {
+    display: block;
+  }
+  .row-fieldright 
+  {
+    margin-top: 50px;
+  }
+  .row-fieldleft input
+  {
+    width: 100%;
+  }
+  
+}
+.contactcard
+{
+    margin-top: 70px;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.contactcarda
+{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 12px rgba(207, 206, 206, 0.562);
+    border-radius: 10px;
+    width: 370px;
+    height: 27vh;
+    background-color: var(--lightblue);
+
+}
+.contactcardicon i{
+    color: var(--darkblue);
+    font-size: 25px;
+}
+.contactaddress
+{
+    margin-top: 1 0px;
+}
+.productbanner
+{
+    height: 35vh;
+    margin-top: 40px;
+}
+.productbannerbottom
+{
+    background-color: rgba(0, 0, 0, 0.719);
+    height: 35vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+.productbannerbottom h2
+{
+ margin-bottom: 10px;
+}
+/* products */
+
+.productsleft
+{
+    width: 19%;
+    
+}
+.productsright
+{
+    width: 80%;
+    padding-left: 6px;
+}
+.products ul li
+{
+width: 23%;
+display: flex;
+flex-direction: column;
+background-color: var(--lightblue);
+box-shadow: 0px 0px 10px rgba(180, 180, 180, 0.712);
+padding-bottom: 10px;
+
+}
+.products ul li:hover
+{
+background-color: white;
+
+}
+.products ul li img
+{
+height: 25vh;
+
+}
+.products ul 
+{
+justify-content: space-between;
+}
+.products ul li h3
+{
+    margin-left: 8px;
+    margin-top: 10px;
+}
+.products ul li p
+{
+    margin-left: 8px;
+}
+.products ul li a
+{
+    margin-left: 8px;
+    padding-left: 5px;
+    color: var(--darkblue);
+    margin-top: 8px;
+    width: 93%;
+}
+.products ul li a:hover
+{
+   color: black;
+   box-shadow: 0px 0px 12px rgba(197, 197, 197, 0.733);
+   border-radius: 10px;
+}
+.products h2
+{
+    margin-bottom: 20px;
+font-size: 30px;
+font-weight: 800;
+}
+.products
+{
+    margin-top: 80px;
+}
+.productsleftbox
+{
+    border: 1px solid rgba(167, 165, 165, 0.493);
+    margin-top: 200px;
+    width: 90%;
+    border-radius: 8px;
+    height: 110vh;
+  
+}
+/* register */
+.registercontainer
+{
+    margin: auto;
+    border-radius: 15px;
+    border: 3px solid white;
+    background-color: var(--lightblue);
+    box-shadow: 0px 0px 15px rgba(226, 225, 225, 0.89);
+    margin-top: 60px;
+}
+.registerinnercon
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.registerinnercon h2
+{
+    margin-top: 30px;
+    font-size: 30px;
+}
+.registercarda
+{
+    margin-top: 25px;
+    background-color: rgba(241, 241, 241, 0.897);
+    width: 100%;
+    border-radius: 7px;
+    height: 9vh;
+    box-shadow: 0px 0px 12px rgba(102, 102, 102, 0.336);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    padding-left: 70px;
+}
+.registercardicon i{
+    width: 35px;
+}
+.repara
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.relogin
+{
+margin-top: 30px;
+gap: 12px;
+margin-bottom: 60px;
+}
+.relogin1
+{
+    font-size: 18px;
+    font-weight: 600;
+}
+.relogin2 a
+{
+    color: var(--darkblue);
+    font-weight: 700;
+}
+.productinnercontainerleft
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.productprice p{
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+    
+}
+.productradio
+{
+    margin-top: 19px;
+    color: rgb(70, 69, 69);
+}
+.productradio input
+{
+    margin-right: 20px;
+}
+.producthr hr
+{
+    margin-top: 38px;
+}
+.prosearchby
+{
+    margin-top: 20px;
+}
+#productsearchformula
+{
+    margin-top: 30px;
+}
+.productsleftbox
+{
+}
+
+
+.searchcontainer-pro
+{
+    border: 1px solid rgb(177, 175, 175);
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    height: 7vh;
+}
+.serchleft-pro input
+{
+    font-size: 15px;
+    margin-left: 1px;
+    width: 90%;
+}
+.searchicon-pro i{
+    width: 10%;
+    font-size: 20px;
+    margin-left: -15px;
+    margin-top: -7px;
+}
+.promargboottom
+{
+    margin-bottom: 90px;
+}
+#button-login
+{
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid var(--darkblue);
+    font-size: 16px;
+}
+#button
+{
+    border: 1px solid var(--darkblue);  
+}
+.loginformemail input
+{
+background-color: rgb(243, 242, 242);
+width: 100%;
+margin-top: -1px;
+margin-left: -80px;
+height: 6vh;
+font-size: 20px;
+border: none;
+outline: none;
+}
+.repara input
+{
+    margin-right: 10px;
+}
+
+/* cart */
+.carttop
+{
+    margin-top: 70px;
+}
+.cardcard1
+{
+    border: 1px solid black;
+    border-radius: 14px;
+    width: 300px;
+    overflow: hidden;
+}
+.cartimg img{
+    width: 100%;
+}
+.cartheading h2{
+    margin-top: 10px;
+    font-size: 23px;
+}
+.cartcentercontainer
+{
+    width: 90%;
+    margin: auto;
+}
+.cartdescription p
+{
+    color: rgb(77, 76, 76);
+    margin-top: 5px;
+}
+.cartprice
+{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.cartform
+{
+    margin-top: 7px;
+}
+.cartform input
+{
+    width: 40%;
+    padding-left: 20px;
+}
+.cartdel
+{
+    margin: 15px 0px;
+    font-size: 22px;
+    display: flex;
+    justify-content: end;
+}
+.cartcards
+{
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.cartcheckout
+{
+    margin-top: 80PX;
+}
+.cartcheckoutbut
+{
+    width: 50%;
+    font-size: 17px;
+    word-spacing: 3PX;
+    font-weight: 600;
+    display: flex;
+    margin: auto;
+}
+.cartcheckoutbut
+{
+    margin-top: 30PX;
+}
+/* faq */
+.faqsection
+{
+    margin-top: 100px;
+}
+.faqs
+{
+    width: 50%;
+    cursor: pointer;
+    margin: auto;
+    color: rgb(15, 14, 14);
+    display: flex;
+    flex-direction: column;
+    margin-top: -75px;
+}
+.question
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 6px;
+    font-size: 18px;
+    background-color: var(--lightblue);
+    height: 7vh;
+    border: 2px solid white;
+    box-shadow: 0px 0px 12px rgba(218, 217, 217, 0.616);
+}
+.answere p
+{
+    border-bottom: 1px solid rgb(204, 203, 203);
+    line-height: 26px;
+    padding: 5px 6px;
+
+}
+#searching
+{
+    margin-top: -9px;
+}
+.answere
+{
+    /* max-height: 0;
+    overflow: hidden; */
+    transition: all 1.4sec ease;
+    opacity: 0;
+}
+.open1a
+{
+ opacity: 1;
+ visibility: visible;
+    scale: 1;
+}
+.faqparamarg
+{
+    margin-bottom: 150px;
+}
+/* bootstrap nav */
+.header
+{
+    top: 0;
+    left: 0;
+    width: 100%;
+     background-color: var(--darkblue);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100;
+     padding: 1.3rem 10%;
+     position: relative;
+}
+.navbar a
+{
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 12px;
+}
+.icons
+{
+    font-size: 1.4rem;
+    font-weight: 900;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 5%;
+}
+#check
+{
+    display: none;
+}
+.header i
+{
+    color: white;
+}
+/* media for responsive nav */
+
+@media (max-width:992px)
+{
+    .header
+    {
+        padding: 1.3rem 5%;
+    }
+}
+@media (max-width:800px)
+{
+    .icons
+    {
+      display: inline-flex;
+      overflow-y: none;
+    }
+    .navbar
+    {
+        position: relative;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 20rem;
+        background: var(--darkblue);
+        height: 0;
+        transition: .3s ease;
+        overflow: hidden;
+       
+    }
+    .navbar a
+    {
+       display: block;
+       text-align: center;
+       margin: 3rem 0;
+       transform: translateY(-50px);
+       transition: 0.3s ease;
+    }
+    .icons #close-icon
+    {
+        display: none;
+    }
+    #check:checked~.icons #menu-icon
+    {
+        display: none;
+    }
+    
+    #check:checked~.icons #close-icon
+    {
+        display: block;
+        z-index: 500%;
+    }
+    #check:checked~.navbar
+    {
+        height: 17.7rem;
+    }
+    #check:checked~.navbar a
+    {
+        transform: translateY(0);
+    }
+    
+}
+.nav-logo img
+{
+    width: 150px;
+}
+/* product 2 */
+.products-wraper
+{
+    margin-top: 80px;
+}
+.product-paragraph 
+{
+    
+    margin-bottom: 90px;
+}
+.product-card
+{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-card-inner
+{
+    width: 250px;
+    background-color:var(--lightblue);
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgb(206, 204, 204);
+}
+.product-card-inner:hover
+{
+  
+    background-color:white;
+    
+}
+.product-img img
+{
+    width: 250px;
+    height: 30vh;
+}
+.product-img
+{
+ 
+}
+.product-row
+{
+    justify-content: space-between;
+}
+.product-text
+{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.product-heading h3{
+    font-weight: 800;
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+}
+.product-para{
+    color: rgb(61, 61, 61);
+    margin-top: 4px;
+}
+.product-price
+{
+    margin-top: 7px;
+    color: rgb(241, 15, 15);
+    font-size: 20px;
+}
+.product-but
+{
+    width: 100%;
+    margin-top: 20px;
+}
+.product-50with
+{
+    gap: 7px;
+}
+.product-margon
+{
+    margin-top: 30px;
+}
+.index-banner
+{
+    
+    background-image: url(https://assets.eposnow.com/public/blog-images/pharmacist-checking-medicines-drugstore__Resampled.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.banner-index-buttons
+{
+    margin-top: 50px;
+    gap: 30px;
+}
+/* faq questions */
+
+
+.faq-container {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 90px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  
+  .accordion {
+    background-color: var(--lightblue);
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+font-weight: 700;
+font-size: 18px;
+color: rgb(32, 32, 32);
+  }
+  
+  .accordion:hover {
+    background-color: #ddd;
+  }
+  
+  .active {
+    background-color: #ccc;
+  }
+  
+  .answer {
+    padding: 15px;
+    background-color: #f1f1f1;
+    display: none;
+  }
+.faqmainheading
+{
+    margin-top: 80px;
+}  
+.faqmainheadingbottom
+{
+    margin-bottom: 50px;
+}
+/* -----------responsive nav -----------------*/
+
+.res-navwraper
+{
+    background-color: var(--darkblue);
+}
+.res-navinner
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2px;
+}
+.res-list ul
+{
+    gap: 35px;
+}
+.res-list ul li a
+{
+    font-size: 19px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.res-iconman i{
+    margin-left: -50px;
+}
+.res-icon
+{
+    display: none;
+    background-color: transparent;
+    position: absolute;
+    right: 30px;
+    top:50px;
+    font-size: 30px;
+    border: 1px solid;
+    padding: 1px 7px;
+   cursor: pointer;
+   
+
+}
+.res-bar2
+{
+    display: none;
+}
+
+@media (max-width:875px)
+{ .res-icon
+    {
+        display: block;
+    z-index: 999;
+    }
+    .res-navwraper
+    {
+        width: 100%;
+        height: 200vh;
+        padding: 90px 0px;
+        position: absolute;
+        display: none;
+        opacity: 0;
+        pointer-events: none;
+       
+    }
+    .res-navinner
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .res-list ul
+    { 
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .res-iconman i 
+    {
+        margin: 0;
+        display: none;
+        opacity: 0;
+        pointer-events: none;
+    }
+   .start .res-navwraper
+   {
+opacity: 1;
+display: block;
+pointer-events: all;
+   }
+   .start .res-icon .res-bar1
+   {
+    display: none;
+   }
+   .start .res-icon .res-bar2
+   {
+    display: block;
+   }
+ 
+
+}
+
+/* ----------search------------- */
+.res-search
+{
+    padding: 10px 20px;
+    margin-top: 80px;
+}
+.res-boundry-search
+{ display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+.res-searchinner
+{
+    width: 60%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid rgba(128, 128, 128, 0.388);
+    border-radius: 30px;
+    height: 56px;
+}
+.res-boundry-search input
+{
+  border:none;
+  outline: none;
+  font-size: 18px;
+  width: 90%;
+}
+.res-searchinner label i
+{
+    font-size: 20px;
+    margin-right: 20px;
+}
+/* us */
+
+.res-productimg
+{
+    background-image: url(https://img.etimg.com/thumb/width-1200,height-1200,imgsize-109116,resizemode-75,msid-102723697/industry/healthcare/biotech/pharmaceuticals/ima-flags-nmc-move-mandating-doctors-to-prescribe-only-generic-medicines.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 140px;
+}
+
+.res-imgcover
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 60%;
+    margin: auto;
+}
+.res-imginner
+{
+
+    background-color: rgba(34, 34, 56, 0.74);
+    color: rgba(255, 255, 255, 0.918);
+   
+    
+}
+.res-imgcover h1
+{
+font-size: 37px;
+margin-bottom: 20px;
+}
